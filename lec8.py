@@ -1,6 +1,9 @@
 """
 lec 8 , functions
 """
+def cal_pi(m,n):
+ 
+ 
 #def my_function(a,b=0):
      
     
@@ -60,6 +63,6 @@ def cal_f(m):
 print(cal_f(3))
     
     
-def cal_p(m,n):
+def cal_pr(m,n):
     return(cal_f(m)/cal_f(m-n))
-print (cal_p(5,3))
+print (cal_pr(5,3))
